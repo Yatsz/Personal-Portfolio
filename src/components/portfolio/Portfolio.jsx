@@ -1,6 +1,6 @@
 import React from 'react'
 import "./portfolio.css"
-import projFive from "../../assets/work5.jpg";
+import projFive from "../../assets/work.jpg";
 
 const Portfolio = () => {
     return (
