@@ -11,7 +11,7 @@ const Portfolio = () => {
             <div className="portfolio__container container">
                 <div>
                     <div className="portfolio__content grid">
-                        <iframe width="840" height="472.5" src="https://www.youtube.com/embed/HrXssc7vn2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe className="portfolio__video" width="840" height="472.5" src="https://www.youtube.com/embed/HrXssc7vn2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
                         <div className="portfolio__data">
                             <h3 className="portfolio__title">Interact</h3>
@@ -26,7 +26,7 @@ const Portfolio = () => {
                     </div>
 
                     <div className="portfolio__content grid">
-                    <iframe width="840" height="472.5" src="https://www.youtube.com/embed/HpOUCSkEpC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe className="portfolio__video" width="840" height="472.5" src="https://www.youtube.com/embed/HpOUCSkEpC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
                         <div className="portfolio__data">
                             <h3 className="portfolio__title">Mem Extension</h3>
@@ -41,7 +41,7 @@ const Portfolio = () => {
                     </div>
 
                     <div className="portfolio__content grid">
-                        <iframe src="https://drive.google.com/file/d/1fL3qPq79dwJ0_C47Aa-Cx9hVuJct639E/preview" title="Google Drive video player" width="840" height="472.5" allow="autoplay"></iframe>
+                        <iframe className="portfolio__video" src="https://drive.google.com/file/d/1fL3qPq79dwJ0_C47Aa-Cx9hVuJct639E/preview" title="Google Drive video player" width="840" height="472.5" allow="autoplay"></iframe>
 
                         <div className="portfolio__data">
                             <h3 className="portfolio__title">Gesture Detector (0:16-1:31)</h3>
